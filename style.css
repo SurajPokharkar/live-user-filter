@@ -1,0 +1,114 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* Reset all CSS properties */
+* {
+  box-sizing: border-box;
+}
+
+/* Set the body's background color, font family, and display */
+body {
+  background-color: #f8f9fd;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Set the container's border radius, box shadow, overflow, and width */
+.container {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+/* Remove margin from the title */
+.title {
+  margin: 0;
+}
+
+/* Display the subtitle as an inline-block with 5px margin on the left, 0 margin on the bottom, and 20px margin on the right */
+.subtitle {
+  display: inline-block;
+  margin: 5px 0 20px;
+  opacity: 0.8;
+}
+
+/* Set the header's background color, color, and padding */
+.header {
+  background-color: #3e57db;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+/* Set the input's background color, border, border radius, color, font size, padding, and width */
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+
+/* Remove the outline from the input when it is focused */
+.header input:focus {
+  outline: none;
+}
+
+/* Set the user list's background color, list style type, margin, padding, max height, and overflow */
+.user-list {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Set the list item's display to flex and padding to 20px */
+.user-list li {
+  display: flex;
+  padding: 20px;
+}
+
+
+/* Set the image's border radius to 50%, object fit to cover, height to 50px, and width to 50px */
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+
+/* Move the user info to the left by 10px */
+.user-list .user-info {
+  margin-left: 10px;
+}
+
+/* Set the user info h4's margin to 0 0 10px */
+.user-list .user-info h4 {
+  margin: 0 0 10px;
+}
+
+/* Set the user info p's font size to 12px */
+.user-list .user-info p {
+  font-size: 12px;
+}
+
+/* Add a 1px solid #eee border to all list items except the last one */
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+/* Hide list items with the class "hide" */
+.user-list li.hide {
+  display: none;
+}
