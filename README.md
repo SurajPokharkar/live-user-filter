@@ -16,7 +16,9 @@ This is a simple app that allows you to filter a list of users by name and/or lo
 
 ## To-do
 
-* Add more features, such as the ability to sort the list of users.
+* Add support for filtering users by gender.
+* Add support for filtering users by interests.
+* Add support for exporting the list of users to a CSV file
 * Improve the design of the app.
 
 ## Credits
