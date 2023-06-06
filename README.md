@@ -2,6 +2,9 @@
 
 This is a simple app that allows you to filter a list of users by name and/or location.
 
+# Live Link of the project 
+click here => https://surajpokharkar.github.io/live-user-filter/
+
 ## How to use
 
 1. Open the app in your browser.
